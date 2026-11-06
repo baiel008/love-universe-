@@ -1,0 +1,325 @@
+{
+  "generatedAt": "2026-11-06T22:11:14.202Z",
+  "mode": "headed (GPU)",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "samples": [
+    {
+      "t": 0,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.99,
+        14.2
+      ]
+    },
+    {
+      "t": 500,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.99,
+        14.2
+      ]
+    },
+    {
+      "t": 1000,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.98,
+        14.2
+      ]
+    },
+    {
+      "t": 1500,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.97,
+        14.2
+      ]
+    },
+    {
+      "t": 2000,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.97,
+        14.2
+      ]
+    },
+    {
+      "t": 2500,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.96,
+        14.2
+      ]
+    },
+    {
+      "t": 3000,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.95,
+        14.2
+      ]
+    },
+    {
+      "t": 3500,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.95,
+        14.2
+      ]
+    },
+    {
+      "t": 4000,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    {
+      "t": 4500,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    {
+      "t": 5000,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    {
+      "t": 5500,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    {
+      "t": 6000,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    {
+      "t": 6500,
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    }
+  ],
+  "summary": {
+    "fps": {
+      "median": 60,
+      "average": 60,
+      "p10": 60,
+      "min": 60,
+      "max": 60,
+      "samples": 14
+    },
+    "drawCalls": {
+      "median": 51,
+      "max": 51
+    },
+    "triangles": {
+      "median": 218000,
+      "max": 218000
+    },
+    "memory": {
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12
+    }
+  },
+  "visibility": {
+    "beforeHide": {
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    "hiddenFirst": {
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    "hiddenSecond": {
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.94,
+        14.2
+      ]
+    },
+    "afterShow": {
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.29,
+        2.99,
+        14.2
+      ]
+    },
+    "frozenWhileHidden": true,
+    "resumed": true
+  },
+  "contextLoss": {
+    "fallbackVisible": true,
+    "restored": true,
+    "afterRestore": {
+      "geometries": 20,
+      "textures": 3,
+      "programs": 12,
+      "calls": 51,
+      "triangles": 218000,
+      "fps": 60,
+      "fov": 45,
+      "camera": [
+        2.28,
+        2.99,
+        14.2
+      ]
+    }
+  },
+  "consoleErrors": [],
+  "failedRequests": [],
+  "ok": true,
+  "fatal": null
+}

@@ -1,0 +1,1778 @@
+{
+  "viewports": [
+    {
+      "viewport": {
+        "name": "desktop-1440",
+        "width": 1440,
+        "height": 900
+      },
+      "intro": {
+        "boxes": {
+          "hud": {
+            "x": 28,
+            "y": 18,
+            "right": 1412,
+            "bottom": 75,
+            "width": 1384,
+            "height": 57
+          },
+          "brand": {
+            "x": 28,
+            "y": 18,
+            "right": 253.1,
+            "bottom": 62,
+            "width": 225.1,
+            "height": 44
+          },
+          "player": {
+            "x": 1090,
+            "y": 18,
+            "right": 1412,
+            "bottom": 75,
+            "width": 322,
+            "height": 57
+          },
+          "audioToggle": {
+            "x": 1259,
+            "y": 29,
+            "right": 1293,
+            "bottom": 63,
+            "width": 34,
+            "height": 34
+          },
+          "whispers": null,
+          "dock": null,
+          "hint": null,
+          "intro": {
+            "x": 398.3,
+            "y": 238.5,
+            "right": 1041.7,
+            "bottom": 687.4,
+            "width": 643.4,
+            "height": 448.9
+          },
+          "introEyebrow": {
+            "x": 549.8,
+            "y": 238.5,
+            "right": 890.2,
+            "bottom": 253.5,
+            "width": 340.5,
+            "height": 15
+          },
+          "introTitle": {
+            "x": 398.3,
+            "y": 280.5,
+            "right": 1041.7,
+            "bottom": 509.1,
+            "width": 643.4,
+            "height": 228.5
+          },
+          "introSubtitle": {
+            "x": 489.7,
+            "y": 534.3,
+            "right": 950.3,
+            "bottom": 567.2,
+            "width": 460.5,
+            "height": 32.9
+          },
+          "introCta": {
+            "x": 586.8,
+            "y": 603.2,
+            "right": 853.1,
+            "bottom": 657.2,
+            "width": 266.3,
+            "height": 54
+          },
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "fonts": "loaded"
+      },
+      "universe": {
+        "boxes": {
+          "hud": {
+            "x": 28,
+            "y": 18,
+            "right": 1412,
+            "bottom": 75,
+            "width": 1384,
+            "height": 57
+          },
+          "brand": {
+            "x": 28,
+            "y": 18,
+            "right": 253.1,
+            "bottom": 62,
+            "width": 225.1,
+            "height": 44
+          },
+          "player": {
+            "x": 1090,
+            "y": 18,
+            "right": 1412,
+            "bottom": 75,
+            "width": 322,
+            "height": 57
+          },
+          "audioToggle": {
+            "x": 1259,
+            "y": 29,
+            "right": 1293,
+            "bottom": 63,
+            "width": 34,
+            "height": 34
+          },
+          "whispers": {
+            "x": 940.1,
+            "y": 20,
+            "right": 1078,
+            "bottom": 62,
+            "width": 137.9,
+            "height": 42
+          },
+          "dock": {
+            "x": 454.6,
+            "y": 804.8,
+            "right": 985.4,
+            "bottom": 880,
+            "width": 530.8,
+            "height": 75.3
+          },
+          "hint": {
+            "x": 560.3,
+            "y": 781,
+            "right": 879.7,
+            "bottom": 796,
+            "width": 319.3,
+            "height": 15
+          },
+          "intro": null,
+          "introEyebrow": null,
+          "introTitle": null,
+          "introSubtitle": null,
+          "introCta": null,
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "stats": {
+          "geometries": 20,
+          "textures": 3,
+          "programs": 12,
+          "calls": 35,
+          "triangles": 176478,
+          "fps": 6,
+          "fov": 56.2,
+          "camera": [
+            0,
+            0.53,
+            5.8
+          ]
+        },
+        "tinyTargets": []
+      },
+      "panels": {
+        "love": {
+          "box": {
+            "x": 900,
+            "y": 0,
+            "right": 1440,
+            "bottom": 900,
+            "width": 540,
+            "height": 900
+          },
+          "scroll": {
+            "clientHeight": 817,
+            "scrollHeight": 898,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "dreams": {
+          "box": {
+            "x": 900,
+            "y": 0,
+            "right": 1440,
+            "bottom": 900,
+            "width": 540,
+            "height": 900
+          },
+          "scroll": {
+            "clientHeight": 817,
+            "scrollHeight": 1143,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "heart": {
+          "box": {
+            "x": 900,
+            "y": 0,
+            "right": 1440,
+            "bottom": 900,
+            "width": 540,
+            "height": 900
+          },
+          "scroll": {
+            "clientHeight": 817,
+            "scrollHeight": 817,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "secret": {
+          "box": {
+            "x": 900,
+            "y": 0,
+            "right": 1440,
+            "bottom": 900,
+            "width": 540,
+            "height": 900
+          },
+          "scroll": {
+            "clientHeight": 817,
+            "scrollHeight": 817,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        }
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "desktop-1366",
+        "width": 1366,
+        "height": 768
+      },
+      "intro": {
+        "boxes": {
+          "hud": {
+            "x": 28,
+            "y": 18,
+            "right": 1338,
+            "bottom": 75,
+            "width": 1310,
+            "height": 57
+          },
+          "brand": {
+            "x": 28,
+            "y": 18,
+            "right": 253.1,
+            "bottom": 62,
+            "width": 225.1,
+            "height": 44
+          },
+          "player": {
+            "x": 1016,
+            "y": 18,
+            "right": 1338,
+            "bottom": 75,
+            "width": 322,
+            "height": 57
+          },
+          "audioToggle": {
+            "x": 1185,
+            "y": 29,
+            "right": 1219,
+            "bottom": 63,
+            "width": 34,
+            "height": 34
+          },
+          "whispers": null,
+          "dock": null,
+          "hint": null,
+          "intro": {
+            "x": 377.8,
+            "y": 185.4,
+            "right": 988.2,
+            "bottom": 608.6,
+            "width": 610.3,
+            "height": 423.2
+          },
+          "introEyebrow": {
+            "x": 512.8,
+            "y": 185.4,
+            "right": 853.2,
+            "bottom": 200.4,
+            "width": 340.5,
+            "height": 15
+          },
+          "introTitle": {
+            "x": 377.8,
+            "y": 223.5,
+            "right": 988.2,
+            "bottom": 439.2,
+            "width": 610.3,
+            "height": 215.7
+          },
+          "introSubtitle": {
+            "x": 452.7,
+            "y": 460.7,
+            "right": 913.3,
+            "bottom": 493.6,
+            "width": 460.5,
+            "height": 32.9
+          },
+          "introCta": {
+            "x": 549.8,
+            "y": 524.3,
+            "right": 816.2,
+            "bottom": 578.3,
+            "width": 266.3,
+            "height": 54
+          },
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "fonts": "loaded"
+      },
+      "universe": {
+        "boxes": {
+          "hud": {
+            "x": 28,
+            "y": 18,
+            "right": 1338,
+            "bottom": 75,
+            "width": 1310,
+            "height": 57
+          },
+          "brand": {
+            "x": 28,
+            "y": 18,
+            "right": 253.1,
+            "bottom": 62,
+            "width": 225.1,
+            "height": 44
+          },
+          "player": {
+            "x": 1016,
+            "y": 18,
+            "right": 1338,
+            "bottom": 75,
+            "width": 322,
+            "height": 57
+          },
+          "audioToggle": {
+            "x": 1185,
+            "y": 29,
+            "right": 1219,
+            "bottom": 63,
+            "width": 34,
+            "height": 34
+          },
+          "whispers": {
+            "x": 866.1,
+            "y": 20,
+            "right": 1004,
+            "bottom": 62,
+            "width": 137.9,
+            "height": 42
+          },
+          "dock": {
+            "x": 417.6,
+            "y": 672.8,
+            "right": 948.4,
+            "bottom": 748,
+            "width": 530.8,
+            "height": 75.3
+          },
+          "hint": {
+            "x": 523.3,
+            "y": 649,
+            "right": 842.7,
+            "bottom": 664,
+            "width": 319.3,
+            "height": 15
+          },
+          "intro": null,
+          "introEyebrow": null,
+          "introTitle": null,
+          "introSubtitle": null,
+          "introCta": null,
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "stats": {
+          "geometries": 20,
+          "textures": 3,
+          "programs": 12,
+          "calls": 35,
+          "triangles": 176478,
+          "fps": 6,
+          "fov": 55.5,
+          "camera": [
+            0,
+            0.54,
+            6.24
+          ]
+        },
+        "tinyTargets": []
+      },
+      "panels": {
+        "love": {
+          "box": {
+            "x": 826,
+            "y": 0,
+            "right": 1366,
+            "bottom": 768,
+            "width": 540,
+            "height": 768
+          },
+          "scroll": {
+            "clientHeight": 685,
+            "scrollHeight": 831,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "dreams": {
+          "box": {
+            "x": 826,
+            "y": 0,
+            "right": 1366,
+            "bottom": 768,
+            "width": 540,
+            "height": 768
+          },
+          "scroll": {
+            "clientHeight": 685,
+            "scrollHeight": 1139,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "heart": {
+          "box": {
+            "x": 826,
+            "y": 0,
+            "right": 1366,
+            "bottom": 768,
+            "width": 540,
+            "height": 768
+          },
+          "scroll": {
+            "clientHeight": 685,
+            "scrollHeight": 685,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "secret": {
+          "box": {
+            "x": 826,
+            "y": 0,
+            "right": 1366,
+            "bottom": 768,
+            "width": 540,
+            "height": 768
+          },
+          "scroll": {
+            "clientHeight": 685,
+            "scrollHeight": 685,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        }
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "desktop-1280",
+        "width": 1280,
+        "height": 800
+      },
+      "intro": {
+        "boxes": {
+          "hud": {
+            "x": 28,
+            "y": 18,
+            "right": 1252,
+            "bottom": 75,
+            "width": 1224,
+            "height": 57
+          },
+          "brand": {
+            "x": 28,
+            "y": 18,
+            "right": 253.1,
+            "bottom": 62,
+            "width": 225.1,
+            "height": 44
+          },
+          "player": {
+            "x": 930,
+            "y": 18,
+            "right": 1252,
+            "bottom": 75,
+            "width": 322,
+            "height": 57
+          },
+          "audioToggle": {
+            "x": 1099,
+            "y": 29,
+            "right": 1133,
+            "bottom": 63,
+            "width": 34,
+            "height": 34
+          },
+          "whispers": null,
+          "dock": null,
+          "hint": null,
+          "intro": {
+            "x": 354,
+            "y": 206.2,
+            "right": 926,
+            "bottom": 619.8,
+            "width": 571.9,
+            "height": 413.7
+          },
+          "introEyebrow": {
+            "x": 469.8,
+            "y": 206.2,
+            "right": 810.2,
+            "bottom": 221.2,
+            "width": 340.5,
+            "height": 15
+          },
+          "introTitle": {
+            "x": 354,
+            "y": 245.2,
+            "right": 926,
+            "bottom": 448.3,
+            "width": 571.9,
+            "height": 203.1
+          },
+          "introSubtitle": {
+            "x": 409.7,
+            "y": 470.7,
+            "right": 870.3,
+            "bottom": 503.6,
+            "width": 460.5,
+            "height": 32.9
+          },
+          "introCta": {
+            "x": 506.8,
+            "y": 535.6,
+            "right": 773.2,
+            "bottom": 589.6,
+            "width": 266.3,
+            "height": 54
+          },
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "fonts": "loaded"
+      },
+      "universe": {
+        "boxes": {
+          "hud": {
+            "x": 28,
+            "y": 18,
+            "right": 1252,
+            "bottom": 75,
+            "width": 1224,
+            "height": 57
+          },
+          "brand": {
+            "x": 28,
+            "y": 18,
+            "right": 253.1,
+            "bottom": 62,
+            "width": 225.1,
+            "height": 44
+          },
+          "player": {
+            "x": 930,
+            "y": 18,
+            "right": 1252,
+            "bottom": 75,
+            "width": 322,
+            "height": 57
+          },
+          "audioToggle": {
+            "x": 1099,
+            "y": 29,
+            "right": 1133,
+            "bottom": 63,
+            "width": 34,
+            "height": 34
+          },
+          "whispers": {
+            "x": 780.1,
+            "y": 20,
+            "right": 918,
+            "bottom": 62,
+            "width": 137.9,
+            "height": 42
+          },
+          "dock": {
+            "x": 374.6,
+            "y": 704.8,
+            "right": 905.4,
+            "bottom": 780,
+            "width": 530.8,
+            "height": 75.3
+          },
+          "hint": {
+            "x": 480.3,
+            "y": 681,
+            "right": 799.7,
+            "bottom": 696,
+            "width": 319.3,
+            "height": 15
+          },
+          "intro": null,
+          "introEyebrow": null,
+          "introTitle": null,
+          "introSubtitle": null,
+          "introCta": null,
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "stats": {
+          "geometries": 20,
+          "textures": 3,
+          "programs": 12,
+          "calls": 35,
+          "triangles": 176478,
+          "fps": 6,
+          "fov": 55.5,
+          "camera": [
+            0,
+            0.54,
+            6.24
+          ]
+        },
+        "tinyTargets": []
+      },
+      "panels": {
+        "love": {
+          "box": {
+            "x": 740,
+            "y": 0,
+            "right": 1280,
+            "bottom": 800,
+            "width": 540,
+            "height": 800
+          },
+          "scroll": {
+            "clientHeight": 717,
+            "scrollHeight": 781,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "dreams": {
+          "box": {
+            "x": 740,
+            "y": 0,
+            "right": 1280,
+            "bottom": 800,
+            "width": 540,
+            "height": 800
+          },
+          "scroll": {
+            "clientHeight": 717,
+            "scrollHeight": 1133,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "heart": {
+          "box": {
+            "x": 740,
+            "y": 0,
+            "right": 1280,
+            "bottom": 800,
+            "width": 540,
+            "height": 800
+          },
+          "scroll": {
+            "clientHeight": 717,
+            "scrollHeight": 717,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        },
+        "secret": {
+          "box": {
+            "x": 740,
+            "y": 0,
+            "right": 1280,
+            "bottom": 800,
+            "width": 540,
+            "height": 800
+          },
+          "scroll": {
+            "clientHeight": 717,
+            "scrollHeight": 717,
+            "clientWidth": 539,
+            "scrollWidth": 539
+          },
+          "tinyTargets": 0
+        }
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "mobile-390",
+        "width": 390,
+        "height": 844
+      },
+      "intro": {
+        "boxes": {
+          "hud": {
+            "x": 12,
+            "y": 10,
+            "right": 378,
+            "bottom": 72,
+            "width": 366,
+            "height": 62
+          },
+          "brand": {
+            "x": 12,
+            "y": 10,
+            "right": 141.3,
+            "bottom": 54,
+            "width": 129.3,
+            "height": 44
+          },
+          "player": {
+            "x": 231,
+            "y": 10,
+            "right": 378,
+            "bottom": 72,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 264,
+            "y": 18,
+            "right": 308,
+            "bottom": 62,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": null,
+          "dock": null,
+          "hint": null,
+          "intro": {
+            "x": 26.3,
+            "y": 297.1,
+            "right": 363.6,
+            "bottom": 576.9,
+            "width": 337.3,
+            "height": 279.8
+          },
+          "introEyebrow": {
+            "x": 66.6,
+            "y": 297.1,
+            "right": 323.4,
+            "bottom": 309.9,
+            "width": 256.9,
+            "height": 12.8
+          },
+          "introTitle": {
+            "x": 92.2,
+            "y": 329.9,
+            "right": 297.8,
+            "bottom": 410.7,
+            "width": 205.6,
+            "height": 80.9
+          },
+          "introSubtitle": {
+            "x": 26.3,
+            "y": 434.3,
+            "right": 363.6,
+            "bottom": 459.3,
+            "width": 337.3,
+            "height": 25
+          },
+          "introCta": {
+            "x": 79.8,
+            "y": 487.3,
+            "right": 310.1,
+            "bottom": 537.3,
+            "width": 230.3,
+            "height": 50
+          },
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "fonts": "loaded"
+      },
+      "universe": {
+        "boxes": {
+          "hud": {
+            "x": 12,
+            "y": 10,
+            "right": 378,
+            "bottom": 72,
+            "width": 366,
+            "height": 62
+          },
+          "brand": {
+            "x": 12,
+            "y": 10,
+            "right": 141.3,
+            "bottom": 54,
+            "width": 129.3,
+            "height": 44
+          },
+          "player": {
+            "x": 231,
+            "y": 10,
+            "right": 378,
+            "bottom": 72,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 264,
+            "y": 18,
+            "right": 308,
+            "bottom": 62,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": {
+            "x": 181,
+            "y": 12,
+            "right": 225,
+            "bottom": 56,
+            "width": 44,
+            "height": 44
+          },
+          "dock": {
+            "x": 8,
+            "y": 772,
+            "right": 382,
+            "bottom": 832,
+            "width": 374,
+            "height": 60
+          },
+          "hint": {
+            "x": 64.4,
+            "y": 744.5,
+            "right": 325.6,
+            "bottom": 758,
+            "width": 261.1,
+            "height": 13.5
+          },
+          "intro": null,
+          "introEyebrow": null,
+          "introTitle": null,
+          "introSubtitle": null,
+          "introCta": null,
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "stats": {
+          "geometries": 20,
+          "textures": 3,
+          "programs": 12,
+          "calls": 45,
+          "triangles": 128908,
+          "fps": 26,
+          "fov": 54.6,
+          "camera": [
+            0.99,
+            1.6,
+            8.76
+          ]
+        },
+        "tinyTargets": []
+      },
+      "panels": {
+        "love": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 390,
+            "bottom": 844,
+            "width": 390,
+            "height": 844
+          },
+          "scroll": {
+            "clientHeight": 775,
+            "scrollHeight": 775,
+            "clientWidth": 390,
+            "scrollWidth": 390
+          },
+          "tinyTargets": 0
+        },
+        "dreams": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 390,
+            "bottom": 844,
+            "width": 390,
+            "height": 844
+          },
+          "scroll": {
+            "clientHeight": 775,
+            "scrollHeight": 1060,
+            "clientWidth": 390,
+            "scrollWidth": 390
+          },
+          "tinyTargets": 0
+        },
+        "heart": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 390,
+            "bottom": 844,
+            "width": 390,
+            "height": 844
+          },
+          "scroll": {
+            "clientHeight": 775,
+            "scrollHeight": 775,
+            "clientWidth": 390,
+            "scrollWidth": 390
+          },
+          "tinyTargets": 0
+        },
+        "secret": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 390,
+            "bottom": 844,
+            "width": 390,
+            "height": 844
+          },
+          "scroll": {
+            "clientHeight": 775,
+            "scrollHeight": 775,
+            "clientWidth": 390,
+            "scrollWidth": 390
+          },
+          "tinyTargets": 0
+        }
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "mobile-375",
+        "width": 375,
+        "height": 667
+      },
+      "intro": {
+        "boxes": {
+          "hud": {
+            "x": 12,
+            "y": 10,
+            "right": 363,
+            "bottom": 72,
+            "width": 351,
+            "height": 62
+          },
+          "brand": {
+            "x": 12,
+            "y": 10,
+            "right": 141.3,
+            "bottom": 54,
+            "width": 129.3,
+            "height": 44
+          },
+          "player": {
+            "x": 216,
+            "y": 10,
+            "right": 363,
+            "bottom": 72,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 249,
+            "y": 18,
+            "right": 293,
+            "bottom": 62,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": null,
+          "dock": null,
+          "hint": null,
+          "intro": {
+            "x": 20,
+            "y": 233.2,
+            "right": 355,
+            "bottom": 463.8,
+            "width": 335,
+            "height": 230.7
+          },
+          "introEyebrow": {
+            "x": 59.1,
+            "y": 233.2,
+            "right": 315.9,
+            "bottom": 245.9,
+            "width": 256.9,
+            "height": 12.8
+          },
+          "introTitle": {
+            "x": 88.6,
+            "y": 257.9,
+            "right": 286.4,
+            "bottom": 333.9,
+            "width": 197.8,
+            "height": 76
+          },
+          "introSubtitle": {
+            "x": 20,
+            "y": 345.9,
+            "right": 355,
+            "bottom": 395.8,
+            "width": 335,
+            "height": 49.9
+          },
+          "introCta": {
+            "x": 72.3,
+            "y": 413.8,
+            "right": 302.7,
+            "bottom": 463.8,
+            "width": 230.3,
+            "height": 50
+          },
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "fonts": "loaded"
+      },
+      "universe": {
+        "boxes": {
+          "hud": {
+            "x": 12,
+            "y": 10,
+            "right": 363,
+            "bottom": 72,
+            "width": 351,
+            "height": 62
+          },
+          "brand": {
+            "x": 12,
+            "y": 10,
+            "right": 141.3,
+            "bottom": 54,
+            "width": 129.3,
+            "height": 44
+          },
+          "player": {
+            "x": 216,
+            "y": 10,
+            "right": 363,
+            "bottom": 72,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 249,
+            "y": 18,
+            "right": 293,
+            "bottom": 62,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": {
+            "x": 166,
+            "y": 12,
+            "right": 210,
+            "bottom": 56,
+            "width": 44,
+            "height": 44
+          },
+          "dock": {
+            "x": 8,
+            "y": 595,
+            "right": 367,
+            "bottom": 655,
+            "width": 359,
+            "height": 60
+          },
+          "hint": {
+            "x": 56.9,
+            "y": 567.5,
+            "right": 318.1,
+            "bottom": 581,
+            "width": 261.1,
+            "height": 13.5
+          },
+          "intro": null,
+          "introEyebrow": null,
+          "introTitle": null,
+          "introSubtitle": null,
+          "introCta": null,
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "stats": {
+          "geometries": 20,
+          "textures": 3,
+          "programs": 12,
+          "calls": 45,
+          "triangles": 128908,
+          "fps": 32,
+          "fov": 54.6,
+          "camera": [
+            0.99,
+            1.6,
+            8.77
+          ]
+        },
+        "tinyTargets": []
+      },
+      "panels": {
+        "love": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 375,
+            "bottom": 667,
+            "width": 375,
+            "height": 667
+          },
+          "scroll": {
+            "clientHeight": 598,
+            "scrollHeight": 707,
+            "clientWidth": 375,
+            "scrollWidth": 375
+          },
+          "tinyTargets": 0
+        },
+        "dreams": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 375,
+            "bottom": 667,
+            "width": 375,
+            "height": 667
+          },
+          "scroll": {
+            "clientHeight": 598,
+            "scrollHeight": 1054,
+            "clientWidth": 375,
+            "scrollWidth": 375
+          },
+          "tinyTargets": 0
+        },
+        "heart": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 375,
+            "bottom": 667,
+            "width": 375,
+            "height": 667
+          },
+          "scroll": {
+            "clientHeight": 598,
+            "scrollHeight": 598,
+            "clientWidth": 375,
+            "scrollWidth": 375
+          },
+          "tinyTargets": 0
+        },
+        "secret": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 375,
+            "bottom": 667,
+            "width": 375,
+            "height": 667
+          },
+          "scroll": {
+            "clientHeight": 598,
+            "scrollHeight": 598,
+            "clientWidth": 375,
+            "scrollWidth": 375
+          },
+          "tinyTargets": 0
+        }
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "mobile-430",
+        "width": 430,
+        "height": 932
+      },
+      "intro": {
+        "boxes": {
+          "hud": {
+            "x": 12,
+            "y": 10,
+            "right": 418,
+            "bottom": 72,
+            "width": 406,
+            "height": 62
+          },
+          "brand": {
+            "x": 12,
+            "y": 10,
+            "right": 141.3,
+            "bottom": 54,
+            "width": 129.3,
+            "height": 44
+          },
+          "player": {
+            "x": 271,
+            "y": 10,
+            "right": 418,
+            "bottom": 72,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 304,
+            "y": 18,
+            "right": 348,
+            "bottom": 62,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": null,
+          "dock": null,
+          "hint": null,
+          "intro": {
+            "x": 46.3,
+            "y": 334.3,
+            "right": 383.6,
+            "bottom": 627.7,
+            "width": 337.3,
+            "height": 293.5
+          },
+          "introEyebrow": {
+            "x": 72.6,
+            "y": 334.3,
+            "right": 357.4,
+            "bottom": 347,
+            "width": 284.9,
+            "height": 12.8
+          },
+          "introTitle": {
+            "x": 96.6,
+            "y": 367,
+            "right": 333.4,
+            "bottom": 459.1,
+            "width": 236.8,
+            "height": 92.1
+          },
+          "introSubtitle": {
+            "x": 46.3,
+            "y": 485.2,
+            "right": 383.6,
+            "bottom": 510.1,
+            "width": 337.3,
+            "height": 25
+          },
+          "introCta": {
+            "x": 99.8,
+            "y": 538.1,
+            "right": 330.1,
+            "bottom": 588.1,
+            "width": 230.3,
+            "height": 50
+          },
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "fonts": "loaded"
+      },
+      "universe": {
+        "boxes": {
+          "hud": {
+            "x": 12,
+            "y": 10,
+            "right": 418,
+            "bottom": 72,
+            "width": 406,
+            "height": 62
+          },
+          "brand": {
+            "x": 12,
+            "y": 10,
+            "right": 141.3,
+            "bottom": 54,
+            "width": 129.3,
+            "height": 44
+          },
+          "player": {
+            "x": 271,
+            "y": 10,
+            "right": 418,
+            "bottom": 72,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 304,
+            "y": 18,
+            "right": 348,
+            "bottom": 62,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": {
+            "x": 221,
+            "y": 12,
+            "right": 265,
+            "bottom": 56,
+            "width": 44,
+            "height": 44
+          },
+          "dock": {
+            "x": 8,
+            "y": 860,
+            "right": 422,
+            "bottom": 920,
+            "width": 414,
+            "height": 60
+          },
+          "hint": {
+            "x": 84.4,
+            "y": 832.5,
+            "right": 345.6,
+            "bottom": 846,
+            "width": 261.1,
+            "height": 13.5
+          },
+          "intro": null,
+          "introEyebrow": null,
+          "introTitle": null,
+          "introSubtitle": null,
+          "introCta": null,
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "stats": {
+          "geometries": 20,
+          "textures": 3,
+          "programs": 12,
+          "calls": 44,
+          "triangles": 128906,
+          "fps": 23,
+          "fov": 54.8,
+          "camera": [
+            0.94,
+            1.54,
+            8.56
+          ]
+        },
+        "tinyTargets": []
+      },
+      "panels": {
+        "love": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 430,
+            "bottom": 932,
+            "width": 430,
+            "height": 932
+          },
+          "scroll": {
+            "clientHeight": 863,
+            "scrollHeight": 863,
+            "clientWidth": 430,
+            "scrollWidth": 430
+          },
+          "tinyTargets": 0
+        },
+        "dreams": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 430,
+            "bottom": 932,
+            "width": 430,
+            "height": 932
+          },
+          "scroll": {
+            "clientHeight": 863,
+            "scrollHeight": 1120,
+            "clientWidth": 430,
+            "scrollWidth": 430
+          },
+          "tinyTargets": 0
+        },
+        "heart": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 430,
+            "bottom": 932,
+            "width": 430,
+            "height": 932
+          },
+          "scroll": {
+            "clientHeight": 863,
+            "scrollHeight": 863,
+            "clientWidth": 430,
+            "scrollWidth": 430
+          },
+          "tinyTargets": 0
+        },
+        "secret": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 430,
+            "bottom": 932,
+            "width": 430,
+            "height": 932
+          },
+          "scroll": {
+            "clientHeight": 863,
+            "scrollHeight": 863,
+            "clientWidth": 430,
+            "scrollWidth": 430
+          },
+          "tinyTargets": 0
+        }
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "tablet-768",
+        "width": 768,
+        "height": 1024
+      },
+      "intro": {
+        "boxes": {
+          "hud": {
+            "x": 18,
+            "y": 14,
+            "right": 750,
+            "bottom": 76,
+            "width": 732,
+            "height": 62
+          },
+          "brand": {
+            "x": 18,
+            "y": 14,
+            "right": 211.1,
+            "bottom": 58,
+            "width": 193.1,
+            "height": 44
+          },
+          "player": {
+            "x": 603,
+            "y": 14,
+            "right": 750,
+            "bottom": 76,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 636,
+            "y": 22,
+            "right": 680,
+            "bottom": 66,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": null,
+          "dock": null,
+          "hint": null,
+          "intro": {
+            "x": 191.8,
+            "y": 354,
+            "right": 576.2,
+            "bottom": 700,
+            "width": 384.3,
+            "height": 345.9
+          },
+          "introEyebrow": {
+            "x": 241.6,
+            "y": 354,
+            "right": 526.4,
+            "bottom": 366.8,
+            "width": 284.9,
+            "height": 12.8
+          },
+          "introTitle": {
+            "x": 191.8,
+            "y": 386.8,
+            "right": 576.2,
+            "bottom": 529.4,
+            "width": 384.3,
+            "height": 142.6
+          },
+          "introSubtitle": {
+            "x": 215.3,
+            "y": 557.4,
+            "right": 552.6,
+            "bottom": 582.4,
+            "width": 337.3,
+            "height": 25
+          },
+          "introCta": {
+            "x": 268.8,
+            "y": 610.4,
+            "right": 499.2,
+            "bottom": 660.4,
+            "width": 230.3,
+            "height": 50
+          },
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "fonts": "loaded"
+      },
+      "universe": {
+        "boxes": {
+          "hud": {
+            "x": 18,
+            "y": 14,
+            "right": 750,
+            "bottom": 76,
+            "width": 732,
+            "height": 62
+          },
+          "brand": {
+            "x": 18,
+            "y": 14,
+            "right": 211.1,
+            "bottom": 58,
+            "width": 193.1,
+            "height": 44
+          },
+          "player": {
+            "x": 603,
+            "y": 14,
+            "right": 750,
+            "bottom": 76,
+            "width": 147,
+            "height": 62
+          },
+          "audioToggle": {
+            "x": 636,
+            "y": 22,
+            "right": 680,
+            "bottom": 66,
+            "width": 44,
+            "height": 44
+          },
+          "whispers": {
+            "x": 547,
+            "y": 16,
+            "right": 591,
+            "bottom": 60,
+            "width": 44,
+            "height": 44
+          },
+          "dock": {
+            "x": 104,
+            "y": 952,
+            "right": 664,
+            "bottom": 1012,
+            "width": 560,
+            "height": 60
+          },
+          "hint": {
+            "x": 253.4,
+            "y": 924.5,
+            "right": 514.6,
+            "bottom": 938,
+            "width": 261.1,
+            "height": 13.5
+          },
+          "intro": null,
+          "introEyebrow": null,
+          "introTitle": null,
+          "introSubtitle": null,
+          "introCta": null,
+          "panel": null,
+          "panelHead": null,
+          "panelScroll": null,
+          "panelClose": null,
+          "whisper": null,
+          "whisperClose": null,
+          "finalQuote": null
+        },
+        "stats": {
+          "geometries": 20,
+          "textures": 3,
+          "programs": 12,
+          "calls": 38,
+          "triangles": 114800,
+          "fps": 12,
+          "fov": 56.4,
+          "camera": [
+            0.33,
+            0.88,
+            6.28
+          ]
+        },
+        "tinyTargets": []
+      },
+      "panels": {
+        "love": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 768,
+            "bottom": 1024,
+            "width": 768,
+            "height": 1024
+          },
+          "scroll": {
+            "clientHeight": 955,
+            "scrollHeight": 955,
+            "clientWidth": 768,
+            "scrollWidth": 768
+          },
+          "tinyTargets": 0
+        },
+        "dreams": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 768,
+            "bottom": 1024,
+            "width": 768,
+            "height": 1024
+          },
+          "scroll": {
+            "clientHeight": 955,
+            "scrollHeight": 1545,
+            "clientWidth": 768,
+            "scrollWidth": 768
+          },
+          "tinyTargets": 0
+        },
+        "heart": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 768,
+            "bottom": 1024,
+            "width": 768,
+            "height": 1024
+          },
+          "scroll": {
+            "clientHeight": 955,
+            "scrollHeight": 955,
+            "clientWidth": 768,
+            "scrollWidth": 768
+          },
+          "tinyTargets": 0
+        },
+        "secret": {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "right": 768,
+            "bottom": 1024,
+            "width": 768,
+            "height": 1024
+          },
+          "scroll": {
+            "clientHeight": 955,
+            "scrollHeight": 955,
+            "clientWidth": 768,
+            "scrollWidth": 768
+          },
+          "tinyTargets": 0
+        }
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "generatedAt": "2026-11-06T22:06:36.448Z",
+  "failures": [],
+  "errors": []
+}

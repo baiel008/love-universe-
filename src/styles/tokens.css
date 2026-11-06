@@ -1,0 +1,40 @@
+:root {
+  color-scheme: dark;
+
+  --ink: #070204;
+  --ink-soft: #12060a;
+  --ink-deep: #1c0810;
+  --red: #c8182e;
+  --red-bright: #e23b4e;
+  --red-deep: #7a1020;
+  --pink: #f3b7c1;
+  --pink-soft: #f9dde2;
+  --cream: #f6ecdc;
+  --cream-dim: #e6d8c6;
+
+  --text: rgba(246, 236, 220, 0.92);
+  --muted: rgba(246, 236, 220, 0.62);
+  --muted-soft: rgba(246, 236, 220, 0.52);
+  --faint: rgba(246, 236, 220, 0.24);
+  --line: rgba(243, 183, 193, 0.16);
+  --line-strong: rgba(243, 183, 193, 0.32);
+
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  --font-sans: 'Manrope', 'Helvetica Neue', system-ui, sans-serif;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --header-h: 88px;
+  --panel-w: min(540px, 46vw);
+  --radius: 18px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@media (max-width: 860px) {
+  :root {
+    --header-h: 74px;
+    --panel-w: 100%;
+  }
+}

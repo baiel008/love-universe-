@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-11-06T21:59:15.552Z",
+  "shots": [
+    "screenshots/gallery/desktop-1440-intro.png",
+    "screenshots/gallery/desktop-1440-universe.png",
+    "screenshots/gallery/desktop-1440-panel-love.png",
+    "screenshots/gallery/desktop-1440-panel-dreams.png",
+    "screenshots/gallery/desktop-1440-panel-heart.png",
+    "screenshots/gallery/desktop-1440-secret-letter.png",
+    "screenshots/gallery/desktop-1440-final.png",
+    "screenshots/gallery/desktop-1440-whisper-card.png",
+    "screenshots/gallery/desktop-1366-intro.png",
+    "screenshots/gallery/desktop-1366-universe.png",
+    "screenshots/gallery/desktop-1280-intro.png",
+    "screenshots/gallery/desktop-1280-universe.png",
+    "screenshots/gallery/mobile-390-intro.png",
+    "screenshots/gallery/mobile-390-universe.png",
+    "screenshots/gallery/mobile-390-panel-love.png",
+    "screenshots/gallery/mobile-390-secret-letter.png",
+    "screenshots/gallery/mobile-390-final.png",
+    "screenshots/gallery/mobile-375-intro.png",
+    "screenshots/gallery/mobile-375-universe.png",
+    "screenshots/gallery/mobile-430-intro.png",
+    "screenshots/gallery/mobile-430-universe.png",
+    "screenshots/gallery/tablet-768-intro.png",
+    "screenshots/gallery/tablet-768-universe.png"
+  ],
+  "consoleErrors": []
+}

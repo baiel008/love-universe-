@@ -1,0 +1,234 @@
+.panel--final {
+  width: 100%;
+  border-left: 0;
+  justify-content: center;
+  background:
+    radial-gradient(
+      76% 58% at 50% 44%,
+      rgba(60, 12, 26, 0.5) 0%,
+      rgba(7, 2, 4, 0.78) 58%,
+      rgba(7, 2, 4, 0.95) 100%
+    ),
+    linear-gradient(180deg, rgba(7, 2, 4, 0.9), rgba(12, 4, 8, 0.96));
+  backdrop-filter: blur(3px);
+}
+
+.panel--final::after {
+  opacity: 0.1;
+  mask-image: radial-gradient(70% 60% at 50% 50%, #000 0%, transparent 100%);
+}
+
+.panel--final .panel__head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  border-bottom: 0;
+  background: linear-gradient(180deg, rgba(7, 2, 4, 0.55), transparent);
+  padding: calc(18px + var(--safe-top)) 28px 18px;
+}
+
+.panel--final .panel__scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding: calc(92px + var(--safe-top)) 24px calc(56px + var(--safe-bottom));
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+  text-align: center;
+}
+
+.final__heart {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 94px;
+  height: 94px;
+  margin-bottom: clamp(22px, 4vh, 40px);
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: radial-gradient(
+    circle at 40% 30%,
+    rgba(243, 183, 193, 0.3),
+    rgba(40, 8, 18, 0.9) 72%
+  );
+  color: var(--pink-soft);
+  box-shadow:
+    0 0 70px rgba(200, 24, 46, 0.45),
+    inset 0 0 30px rgba(200, 24, 46, 0.4);
+  animation: final-float 7s var(--ease-in-out) infinite;
+}
+
+.final__heart svg {
+  fill: rgba(200, 24, 46, 0.24);
+}
+
+.final__heart-glow {
+  position: absolute;
+  inset: -46px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(243, 183, 193, 0.22) 0%, transparent 66%);
+  filter: blur(6px);
+  pointer-events: none;
+}
+
+@keyframes final-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+.final__quote {
+  max-width: 900px;
+}
+
+.final__quote p {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4.4vw, 4.15rem);
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.008em;
+  color: var(--cream);
+  text-wrap: balance;
+  text-shadow:
+    0 0 60px rgba(200, 24, 46, 0.3),
+    0 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.final__support {
+  max-width: 520px;
+  margin-top: clamp(18px, 3vh, 28px);
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 1.7vw, 1.38rem);
+  font-style: italic;
+  line-height: 1.5;
+  color: rgba(249, 221, 226, 0.74);
+  text-wrap: balance;
+}
+
+.final__line {
+  width: 72px;
+  height: 1px;
+  margin: clamp(24px, 4vh, 38px) auto;
+  background: linear-gradient(90deg, transparent, var(--pink), transparent);
+  transform-origin: center;
+}
+
+.final__continuation {
+  font-size: 9.5px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.final__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: clamp(28px, 5vh, 44px);
+}
+
+.final__actions .btn {
+  min-height: 48px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 860px) {
+  .panel--final .panel__head {
+    padding: calc(10px + var(--safe-top)) 16px 10px;
+  }
+
+  .panel--final .panel__scroll {
+    padding: calc(84px + var(--safe-top)) 22px calc(40px + var(--safe-bottom));
+  }
+
+  .final__heart {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 24px;
+  }
+
+  .final__heart svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .final__quote p {
+    font-size: clamp(1.72rem, 7.6vw, 2.9rem);
+    line-height: 1.14;
+  }
+
+  .final__support {
+    margin-top: 16px;
+    font-size: 1.04rem;
+  }
+
+  .final__line {
+    margin: 22px auto;
+  }
+
+  .final__continuation {
+    font-size: 8px;
+    letter-spacing: 0.26em;
+  }
+
+  .final__actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 26px;
+  }
+
+  .final__actions .btn {
+    width: 100%;
+    min-height: 48px;
+  }
+}
+
+@media (max-height: 720px) {
+  .final__heart {
+    width: 66px;
+    height: 66px;
+    margin-bottom: 16px;
+  }
+
+  .final__quote p {
+    font-size: clamp(1.6rem, 5.6vh, 2.6rem);
+  }
+
+  .final__support {
+    margin-top: 12px;
+    font-size: 1rem;
+  }
+
+  .final__line {
+    margin: 16px auto;
+  }
+
+  .final__actions {
+    margin-top: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .final__heart {
+    animation: none;
+  }
+}
